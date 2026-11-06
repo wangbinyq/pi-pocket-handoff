@@ -1,0 +1,15 @@
+{
+    "name": "pi-pocket-handoff",
+    "version": "1.0.0",
+    "description": "A Pi Pocket drop-in that has Pi write a handoff brief, then starts a fresh context from it",
+    "license": "MIT",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "typecheck": "tsc -p tsconfig.json"
+    },
+    "devDependencies": {
+        "typescript": "^5.9.0",
+        "@types/node": "^22.0.0"
+    }
+}
